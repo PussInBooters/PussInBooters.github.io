@@ -7,6 +7,17 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+.navbar {
+    background-color: #FFB8D1;
+    padding: 10px;
+    border-radius: 20px; /* round the corners */
+}
+
+.navbar a {
+    float: center;
+    text-align: center;
+}
+
 .container {
     display: flex; /* arranging side and main */
     max-width: flex;
