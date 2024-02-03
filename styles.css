@@ -34,7 +34,7 @@ body {
 
 .paragraph{
     text-align: left;
-    background-color: #E7CEE3; /* background color for the outline */
+    background-color: #FFC7DA; /* background color for the outline */
     padding: 10px 10px 20px; /* padding for the outline */
     border-radius: 20px; /* round the corners */
 
@@ -50,7 +50,7 @@ h1 {
 h2 {
     width: fit-content;
     color: #17010d;
-    background-color: #E697BD; /* background color for the outline */
+    background-color: #FF93B9; /* background color for the outline */
     padding: 0px 20px 0px; /* padding for the outline */
     border-radius: 10px; /* round the corners */
     text-align: left;
