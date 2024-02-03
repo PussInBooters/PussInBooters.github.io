@@ -16,6 +16,15 @@ body {
 .navbar a {
     float: center;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #E7CEE3;
+    color:#fd5a93;
+    border-radius: 20px; /* round the corners */
 }
 
 .container {
@@ -43,7 +52,7 @@ body {
     padding: 10px 10px 100%;
 }
 
-.paragraph{
+.paragraph {
     text-align: left;
     background-color: #FFC7DA; /* background color for the outline */
     padding: 10px 10px 20px; /* padding for the outline */
