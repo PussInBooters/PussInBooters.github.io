@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffacd5; /* Pink background color */
+    background-color: #fffbfd; /* background color */
     color: #000000; /* Text color */
     font-family: 'Arial', sans-serif;
 }
@@ -16,7 +16,7 @@ body {
 
 h1 {
     color: #38001d; /* Heading color */
-    background-color: #bcdefb; /* background color for the outline */
+    background-color: #E7CEE3; /* background color for the outline */
     padding: 10px; /* padding for the outline */
     border-radius: 10px; /* round the corners */
 }
