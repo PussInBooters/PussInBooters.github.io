@@ -8,10 +8,31 @@ body {
 }
 
 .container {
+    display: flex; /* arranging side and main */
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
     text-align: center;
+}
+
+.side-panel {
+    width: 25%;
+    background-color: #FFB8D1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
 }
 
 h1 {
