@@ -4,6 +4,7 @@ import Footer from "./components/Footer.js"
 import NavBar from './components/NavBar.js';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -29,7 +30,7 @@ function App() {
             <header className="subtitles">Image Processing</header>
           </div>
           <div className="paragraph2">
-            Process
+            process
           </div>
 
           <div id="howto">
