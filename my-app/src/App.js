@@ -2,6 +2,8 @@ import './App.css';
 import Avatar from './components/Avatar.js';
 import Footer from "./components/Footer.js"
 import NavBar from './components/NavBar.js';
+import ImageProcessing from './components/ImagePro.js';
+import barbie from './barbie.jpg'
 
 
 
@@ -30,8 +32,9 @@ function App() {
             <header className="subtitles">Image Processing</header>
           </div>
           <div className="paragraph2">
-            process
+            Image Processor Place Holder
           </div>
+          <ImageProcessing />
 
           <div id="howto">
             <header className="subtitles">How To</header>
