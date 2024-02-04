@@ -1,4 +1,5 @@
 import './App.css';
+import Avatar from './components/Avatar.js';
 import Footer from "./components/Footer.js"
 import NavBar from './components/NavBar.js';
 
@@ -44,6 +45,7 @@ function App() {
           
           <div className="paragraph4">
             We are a small group of UTCS students who wanted to learn Processing and React for the WiCS 2024 Hackathon.
+            <Avatar />
           </div>
         </div>
         <div className="sidebar-rigth">
