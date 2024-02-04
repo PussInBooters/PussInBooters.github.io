@@ -4,7 +4,6 @@ import {
     Row,
     Column,
     FooterLink,
-    Heading,
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -16,21 +15,21 @@ const Footer = () => {
                     textAlign: "center",
                     marginTop: "10px",
                 }}>
-                Image Processing
+                Barbie Image Processing
             </h1>
             <FooterContainer>
                 <Row>
                     <Column>
-                        <Heading>About Us</Heading>
+                        <FooterLink href="#intro">Introduction</FooterLink>
                     </Column>
                     <Column>
-                        <Heading>Services</Heading>
+                        <FooterLink href="#process">Processing</FooterLink>
                     </Column>
                     <Column>
-                        <Heading>Contact Us</Heading>
+                        <FooterLink href="#howto">How To</FooterLink>
                     </Column>
                     <Column>
-                        <Heading>Social Media</Heading>
+                        <FooterLink href="#about">About Us</FooterLink>
                     </Column>
                 </Row>
             </FooterContainer>
